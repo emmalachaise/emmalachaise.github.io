@@ -1,0 +1,95 @@
+h1 {
+  color: floralwhite;
+  font-size: 40px;
+  background: black;
+  font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+  color: black;
+  font-weight:bold;
+  font-size: 32px;
+  background: transparent;
+  font-family: georgia;
+}
+
+p {
+  color: black;
+  font-weight:lighter;
+  font-size: 32px;
+  background: transparent;
+  font-family: georgia;
+}
+
+h3 {
+  color:black;
+  font-size: 45px;
+  background: transparent;
+  font-family: Aharoni;
+}
+
+h3 {
+  padding: all;
+  border: 2px black double;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px black;
+}
+
+iframe {
+  text-align: center;
+  }
+
+img {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+body {
+  background: beige;
+  text-align: center;
+ } 
+
+ li {
+   font-size: 25px
+ } 
+
+
+
+.line-transparent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-light {
+  height: 30px;
+  width: 100%;
+  background: #D3D3D3;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E2F3DC;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: #9F3442;
+}
+
+.link:hover {
+  color: #458D2E;
+}
